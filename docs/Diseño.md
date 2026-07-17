@@ -1,1 +1,1 @@
-Gestiona moneda base, tipos de cambio y conversiones mediante Scripting.Dictionary.
+Preparado para integrarse con clsPortfolio, clsHolding, clsTransaction y clsCurrency.

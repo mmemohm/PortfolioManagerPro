@@ -1,2 +1,2 @@
-# clsCurrency
-Componente acumulativo para manejo de divisas.
+# Dividend Engine
+Gestiona dividendos, impuestos y dividendos netos.
