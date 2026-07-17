@@ -1,1 +1,1 @@
-Entregable 2: implementación base de clsHolding.
+Entregable 3: modelo base de transacciones.
