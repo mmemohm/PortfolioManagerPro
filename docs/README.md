@@ -1,19 +1,16 @@
-Sprint 7 - Entregable 1 - Fase 2
+# Sprint 7 - Entregable 1 - Fase 3
 
-Novedades:
-- Cambio de Collection a Scripting.Dictionary.
-- AddHolding con validación de duplicados.
-- GetHolding().
-- UpdateHolding().
-- RemoveHolding().
-- HoldingExists().
-- HoldingCount().
-- GetAllHoldings() para iteración.
+Implementa el motor de agregación financiera del portafolio.
 
-Pendiente Fase 3:
-- MarketValue
-- CostBasis
-- ROI
-- UnrealizedGain
-- RealizedGain
-- Dividend calculations
+## Funciones
+- MarketValue()
+- CostBasis()
+- UnrealizedGain()
+- RealizedGain()
+- TotalDividends()
+- TotalProfit()
+- ROI()
+- SummaryDictionary()
+
+Nota:
+Esta fase asume que clsHolding implementará las propiedades financieras correspondientes en el siguiente componente del Sprint 7.
