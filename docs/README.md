@@ -1,23 +1,19 @@
-# Sprint 7 - Entregable 1
+Sprint 7 - Entregable 1 - Fase 2
 
-Estado: Implementación inicial de clsPortfolio
+Novedades:
+- Cambio de Collection a Scripting.Dictionary.
+- AddHolding con validación de duplicados.
+- GetHolding().
+- UpdateHolding().
+- RemoveHolding().
+- HoldingExists().
+- HoldingCount().
+- GetAllHoldings() para iteración.
 
-Incluye:
-- Inicialización automática
-- Identificador único
-- Encapsulación de propiedades
-- Validación de nombre
-- Colección de Holdings
-- AddHolding
-- RemoveHolding
-- HoldingExists
-- HoldingCount
-- GetSummary
-
-Pendiente para siguientes componentes:
-- Estadísticas financieras
+Pendiente Fase 3:
+- MarketValue
+- CostBasis
 - ROI
-- Market Value
-- Persistencia
-- Clonación
-- Serialización
+- UnrealizedGain
+- RealizedGain
+- Dividend calculations
