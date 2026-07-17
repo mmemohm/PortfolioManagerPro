@@ -1,1 +1,1 @@
-Entregable 3: modelo base de transacciones.
+Componentes consolidados y acumulativos.
