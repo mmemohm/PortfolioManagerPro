@@ -1,0 +1,1 @@
+Gestiona moneda base, tipos de cambio y conversiones mediante Scripting.Dictionary.

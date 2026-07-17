@@ -1,1 +1,2 @@
-Componentes consolidados y acumulativos.
+# clsCurrency
+Componente acumulativo para manejo de divisas.
