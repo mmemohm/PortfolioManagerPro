@@ -1,9 +1,8 @@
-# Sprint 9 - Entregable 7
+# Sprint 10 - Entregable 1
 
-Release Candidate v1.1.0
+Base del workbook.
 
-Includes:
-- Release validation entry point
-- Release checklist
-- Changelog
-- Smoke test
+Incluye:
+- Workbook inicial
+- Hojas principales
+- Módulo de navegación VBA
