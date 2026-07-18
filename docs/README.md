@@ -1,9 +1,9 @@
-# Sprint 9 - Entregable 6
+# Sprint 9 - Entregable 7
 
-Generador de Reportes.
+Release Candidate v1.1.0
 
-Incluye:
-- Opciones de exportación.
-- Punto de entrada para generar reportes.
-- Plantilla de resumen ejecutivo.
-- Pruebas base.
+Includes:
+- Release validation entry point
+- Release checklist
+- Changelog
+- Smoke test
