@@ -1,10 +1,8 @@
-# Sprint 10 - Entregable 5
+# Sprint 10 - Entregable 6
 
-Dashboard Analítico
+Configuración centralizada.
 
 Incluye:
-- Indicadores de rendimiento
-- Indicadores de riesgo
-- Diversificación
-- Benchmark
-- Punto de integración VBA
+- Hoja de configuración
+- Parámetros generales
+- Base para carga/guardado de configuración
