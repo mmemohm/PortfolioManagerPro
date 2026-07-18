@@ -1,16 +1,10 @@
-# Sprint 7 - Entregable 7
+# Sprint 8 - Entregable 1
 
-## Objetivo
-Integrar los componentes principales del sistema:
+## clsMarketDataProvider
 
-- clsPortfolio
-- clsHolding
-- clsTransaction
-- clsCurrency
-- clsDividendEngine
-- Dashboard V2
+Base para integrar proveedores de datos de mercado.
 
-## Incluye
-- Módulo de integración
-- Pruebas de integración
-- Punto único de inicialización
+Objetivos:
+- Abstraer la fuente de cotizaciones.
+- Permitir múltiples proveedores.
+- Preparar integración con clsPortfolio y Dashboard.
