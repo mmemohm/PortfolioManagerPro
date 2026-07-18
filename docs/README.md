@@ -1,3 +1,3 @@
-# Motor de Actualización Automática
+# Watchlist Inteligente
 
 Base del entregable del Sprint 11.
