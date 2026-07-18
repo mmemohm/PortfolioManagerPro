@@ -1,26 +1,20 @@
-Attribute VB_Name = "modIntegration"
+Attribute VB_Name="modIntegration"
 Option Explicit
 
-Public Sub InitializePortfolioManager()
-    ' Punto único de inicialización
-    Call LoadPortfolio
-    Call LoadCurrencies
-    Call LoadDividends
-    Call RefreshDashboard
-End Sub
+Public Function RunEndToEnd(ByVal Portfolio As clsPortfolio, _
+                            ByVal Provider As clsMarketDataProvider) As Boolean
+    On Error GoTo EH
 
-Public Sub LoadPortfolio()
-    ' Integración clsPortfolio
-End Sub
+    'Expected flow:
+    '1. Load settings
+    '2. Download market data
+    '3. Parse JSON into clsQuote
+    '4. Update holdings
+    '5. Refresh dashboard
+    '6. Save cache / settings
 
-Public Sub LoadCurrencies()
-    ' Integración clsCurrency
-End Sub
-
-Public Sub LoadDividends()
-    ' Integración clsDividendEngine
-End Sub
-
-Public Function RunHealthCheck() As Boolean
-    RunHealthCheck = True
+    RunEndToEnd = True
+    Exit Function
+EH:
+    RunEndToEnd = False
 End Function
