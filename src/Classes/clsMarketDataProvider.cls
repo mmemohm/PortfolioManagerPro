@@ -1,29 +1,35 @@
 VERSION 1.0 CLASS
 BEGIN
-  MultiUse = -1
+  MultiUse=-1
 END
-Attribute VB_Name = "clsMarketDataProvider"
+Attribute VB_Name="clsMarketDataProvider"
 Option Explicit
 
-Private mLastUpdate As Date
+Private Const BASE_URL As String = "https://api.twelvedata.com/quote"
+Private mApiKey As String
 
-Public Sub Initialize()
-    mLastUpdate = 0
+Public Sub Initialize(ByVal ApiKey As String)
+    mApiKey = Trim$(ApiKey)
 End Sub
 
-Public Function GetQuote(ByVal Symbol As String) As Double
-    ' TODO: Implementar proveedor real (API)
-    Err.Raise 8101, , "Market data provider not configured."
+Public Function BuildQuoteUrl(ByVal Symbol As String) As String
+    BuildQuoteUrl = BASE_URL & "?symbol=" & _
+        Replace(UCase$(Trim$(Symbol)), " ", "%20") & _
+        "&apikey=" & mApiKey
 End Function
 
-Public Function GetLastUpdate() As Date
-    GetLastUpdate = mLastUpdate
+Public Function IsConfigured() As Boolean
+    IsConfigured = (Len(mApiKey) > 0)
 End Function
 
-Public Sub SetLastUpdate(ByVal Value As Date)
-    mLastUpdate = Value
-End Sub
-
-Public Function IsConnected() As Boolean
-    IsConnected = False
+Public Function GetQuoteJson(ByVal Symbol As String) As String
+    If Not IsConfigured Then Err.Raise 8101,, "API Key not configured."
+    Dim http As Object
+    Set http = CreateObject("MSXML2.ServerXMLHTTP.6.0")
+    http.Open "GET", BuildQuoteUrl(Symbol), False
+    http.send
+    If http.Status <> 200 Then
+        Err.Raise 8102,, "HTTP Error: " & http.Status
+    End If
+    GetQuoteJson = http.responseText
 End Function

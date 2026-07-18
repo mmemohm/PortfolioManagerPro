@@ -1,10 +1,11 @@
-# Sprint 8 - Entregable 1
+# Sprint 8 - Entregable 2
 
-## clsMarketDataProvider
+Cliente funcional para Twelve Data.
 
-Base para integrar proveedores de datos de mercado.
+## Características
+- HTTP mediante MSXML2.ServerXMLHTTP.6.0
+- Construcción de URL para consulta de cotizaciones
+- Configuración mediante API Key
+- Manejo básico de errores HTTP
 
-Objetivos:
-- Abstraer la fuente de cotizaciones.
-- Permitir múltiples proveedores.
-- Preparar integración con clsPortfolio y Dashboard.
+**Por seguridad, coloque su API Key en `config.ini` o cárguela desde una hoja de configuración; no la almacene en el código fuente.**
