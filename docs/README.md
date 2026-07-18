@@ -1,9 +1,9 @@
-# Sprint 8 - Entregable 3
+# Sprint 8 - Entregable 4
 
-Implementa el mapeo de la respuesta JSON de Twelve Data hacia un objeto `clsQuote`.
+Integra las cotizaciones con el modelo del portafolio.
 
-## Alcance
-- Clase `clsQuote`.
-- Módulo `modQuoteParser`.
-- Preparado para utilizar VBA-JSON (`JsonConverter.bas`).
-- Base para integrar con `clsMarketDataProvider`.
+## Incluye
+- Actualización de un Holding desde un clsQuote.
+- Estructura para refresco del portafolio.
+- Resultado del proceso mediante clsPortfolioRefreshResult.
+- Pruebas base de integración.
