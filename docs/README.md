@@ -1,10 +1,9 @@
-# Sprint 9 - Entregable 1
+# Sprint 9 - Entregable 2
 
-Motor de métricas del portafolio.
+Motor de riesgo del portafolio.
 
 Incluye:
-- clsPortfolioMetrics
-- Funciones para Ganancia/Pérdida
-- Rendimiento %
-- Peso por posición
-- Punto de entrada BuildPortfolioMetrics()
+- clsRiskMetrics
+- Cálculo base de riesgo por posición
+- Clasificación de concentración
+- Punto de entrada para análisis agregado
