@@ -1,8 +1,3 @@
-# Sprint 10 - Entregable 1
+# Sprint 10 - Entregable 2
 
-Base del workbook.
-
-Incluye:
-- Workbook inicial
-- Hojas principales
-- Módulo de navegación VBA
+Dashboard principal con estructura inicial de KPIs.
