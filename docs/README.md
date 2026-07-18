@@ -1,3 +1,3 @@
-# Sprint 10 - Entregable 2
+# Sprint 10 - Entregable 3
 
-Dashboard principal con estructura inicial de KPIs.
+Base para el formulario Agregar Activo.

@@ -1,0 +1,14 @@
+UserForm: frmAddAsset
+
+Campos:
+- Ticker
+- Nombre
+- Cantidad
+- Precio Compra
+- Moneda
+- Broker
+- Fecha
+
+Botones:
+- Guardar
+- Cancelar
