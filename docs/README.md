@@ -1,10 +1,11 @@
-# Sprint 9 - Entregable 3
+# Sprint 9 - Entregable 4
 
-Motor de Alertas.
+Histórico de cotizaciones.
 
 Incluye:
-- clsAlert
-- Alertas por caída porcentual
-- Objetivo de precio
-- Nuevo máximo
-- Punto de entrada EvaluatePortfolioAlerts()
+
+- clsPriceHistory
+- Creación de registros históricos
+- Generación de nombre de archivo
+- Base para persistencia en CSV
+- Ejemplo de archivo histórico
