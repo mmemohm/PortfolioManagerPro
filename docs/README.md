@@ -1,3 +1,3 @@
-# Sprint 10 - Entregable 3
+# Sprint 10 - Entregable 4
 
-Base para el formulario Agregar Activo.
+Pantalla base para captura de transacciones.

@@ -1,0 +1,14 @@
+UserForm frmTransactions
+
+Campos:
+- Fecha
+- Tipo (Compra/Venta/Dividendo)
+- Ticker
+- Cantidad
+- Precio
+- Comisión
+- Broker
+
+Botones:
+- Guardar
+- Cancelar
