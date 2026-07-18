@@ -1,9 +1,10 @@
-# Sprint 9 - Entregable 2
+# Sprint 9 - Entregable 3
 
-Motor de riesgo del portafolio.
+Motor de Alertas.
 
 Incluye:
-- clsRiskMetrics
-- Cálculo base de riesgo por posición
-- Clasificación de concentración
-- Punto de entrada para análisis agregado
+- clsAlert
+- Alertas por caída porcentual
+- Objetivo de precio
+- Nuevo máximo
+- Punto de entrada EvaluatePortfolioAlerts()
