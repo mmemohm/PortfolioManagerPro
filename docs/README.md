@@ -1,3 +1,10 @@
-# Sprint 10 - Entregable 4
+# Sprint 10 - Entregable 5
 
-Pantalla base para captura de transacciones.
+Dashboard Analítico
+
+Incluye:
+- Indicadores de rendimiento
+- Indicadores de riesgo
+- Diversificación
+- Benchmark
+- Punto de integración VBA
