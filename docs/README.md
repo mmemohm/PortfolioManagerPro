@@ -1,9 +1,9 @@
-# Sprint 9 - Entregable 5
+# Sprint 9 - Entregable 6
 
-Dashboard Analítico.
+Generador de Reportes.
 
 Incluye:
-- Punto de actualización del dashboard analítico.
-- Plantilla de distribución de KPIs.
-- Base para gráficos de asignación.
-- Pruebas unitarias básicas.
+- Opciones de exportación.
+- Punto de entrada para generar reportes.
+- Plantilla de resumen ejecutivo.
+- Pruebas base.

@@ -1,0 +1,10 @@
+Portfolio Manager Pro
+
+Executive Summary
+
+- Portfolio Value
+- Total Return
+- Daily P/L
+- Risk Score
+- Top Holdings
+- Alerts
