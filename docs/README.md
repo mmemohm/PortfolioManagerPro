@@ -1,9 +1,3 @@
-# Sprint 10 - Entregable 7
+# Motor de Actualización Automática
 
-Beta v1.1.0 integrada.
-
-Contenido:
-- Workbook integrado
-- Inicialización de aplicación
-- Changelog
-- Smoke tests
+Base del entregable del Sprint 11.
