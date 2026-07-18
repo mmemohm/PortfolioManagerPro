@@ -1,11 +1,9 @@
-# Sprint 9 - Entregable 4
+# Sprint 9 - Entregable 5
 
-Histórico de cotizaciones.
+Dashboard Analítico.
 
 Incluye:
-
-- clsPriceHistory
-- Creación de registros históricos
-- Generación de nombre de archivo
-- Base para persistencia en CSV
-- Ejemplo de archivo histórico
+- Punto de actualización del dashboard analítico.
+- Plantilla de distribución de KPIs.
+- Base para gráficos de asignación.
+- Pruebas unitarias básicas.

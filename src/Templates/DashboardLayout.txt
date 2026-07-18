@@ -1,0 +1,13 @@
+Analytics Dashboard Layout
+
+- Portfolio Value
+- Daily P/L
+- Total Return %
+- Risk Score
+- Largest Position
+- Top Performer
+- Worst Performer
+- Asset Allocation Chart
+- Sector Allocation Chart
+- Currency Allocation Chart
+- Last Update
