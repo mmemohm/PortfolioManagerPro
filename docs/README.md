@@ -1,10 +1,10 @@
-# Sprint 8 - Entregable 7
+# Sprint 9 - Entregable 1
 
-Final integration package.
+Motor de métricas del portafolio.
 
-## Included
-- End-to-end integration entry point.
-- Smoke-test scaffold.
-- Beta validation checklist.
-
-Completes Sprint 8 and prepares the project for Beta v1.1.0.
+Incluye:
+- clsPortfolioMetrics
+- Funciones para Ganancia/Pérdida
+- Rendimiento %
+- Peso por posición
+- Punto de entrada BuildPortfolioMetrics()
