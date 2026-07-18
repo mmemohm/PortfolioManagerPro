@@ -1,8 +1,9 @@
-# Sprint 10 - Entregable 6
+# Sprint 10 - Entregable 7
 
-Configuración centralizada.
+Beta v1.1.0 integrada.
 
-Incluye:
-- Hoja de configuración
-- Parámetros generales
-- Base para carga/guardado de configuración
+Contenido:
+- Workbook integrado
+- Inicialización de aplicación
+- Changelog
+- Smoke tests
