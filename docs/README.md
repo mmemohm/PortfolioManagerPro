@@ -1,9 +1,9 @@
-# Sprint 8 - Entregable 4
+# Sprint 8 - Entregable 5
 
-Integra las cotizaciones con el modelo del portafolio.
+Persistencia y configuración.
 
-## Incluye
-- Actualización de un Holding desde un clsQuote.
-- Estructura para refresco del portafolio.
-- Resultado del proceso mediante clsPortfolioRefreshResult.
-- Pruebas base de integración.
+Incluye:
+- Clase de configuración.
+- Módulo de carga/guardado (base).
+- Plantilla de archivo INI.
+- Utilidad para nombres de caché.
