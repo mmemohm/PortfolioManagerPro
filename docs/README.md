@@ -1,2 +1,2 @@
-# Dividend Engine
-Gestiona dividendos, impuestos y dividendos netos.
+# Dashboard V2
+Panel preparado para integrar KPIs, posiciones, dividendos y divisas.
